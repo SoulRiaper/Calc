@@ -29,6 +29,7 @@
         <Button x:Name="multiplyEvent" Content="x" Height="100" Margin="697,575,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="eventButtonClickHandler"/>
         <TextBlock x:Name="questionView" HorizontalAlignment="Left" Margin="82,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="162" Width="810" FontSize="48" TextAlignment="Center" FontWeight="Bold"/>
         <Button Content="c" Height="100" Margin="82,470,0,0" VerticalAlignment="Top" Width="405" FontWeight="Bold" FontFamily="Calibri" FontSize="40" Click="resetButtonHandler"/>
+        <Button Content="Button" Margin="149,39,0,0" VerticalAlignment="Top"/>
 
 
     </Grid>
