@@ -97,5 +97,10 @@ namespace Calc
             return Convert.ToString(result);
         }
 
+        private void testFunc()
+        {
+
+        }
+
     }
 }
