@@ -10,26 +10,25 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:Name="dotButton" Content="," Height="100" Margin="82,890,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="dotClickHandler"/>
-        <Button Content="0" Height="100" Margin="287,890,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
-        <Button x:Name="calculateButton" IsEnabled="False" Content="=" Height="100" Margin="492,890,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="calcButtonHandler"/>
-        <Button Content="9" Height="100" Margin="492,785,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
-        <Button Content="8" Height="100" Margin="287,785,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
-        <Button Content="7" Height="100" Margin="82,785,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
-        <Button Content="4" Height="100" Margin="82,680,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
-        <Button Content="5" Height="100" Margin="287,680,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
-        <Button Content="6" Height="100" Margin="492,680,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
-        <Button Content="3" Height="100" Margin="492,575,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
-        <Button Content="2" Height="100" Margin="287,575,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
-        <Button Content="1" Height="100" Margin="82,575,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
-        <TextBlock x:Name="inputForm" HorizontalAlignment="Left" Margin="492,470,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="100" Width="401" FontSize="24" TextAlignment="Center" FontWeight="Bold"/>
-        <Button x:Name="subtractEvent" Content="-" Height="100" Margin="697,890,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="eventButtonClickHandler"/>
-        <Button x:Name="foldEvent" Content="+" Height="100" Margin="697,785,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="eventButtonClickHandler"/>
-        <Button x:Name="devideEvent" Content="/" Height="100" Margin="697,680,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="eventButtonClickHandler"/>
-        <Button x:Name="multiplyEvent" Content="x" Height="100" Margin="697,575,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="eventButtonClickHandler"/>
-        <TextBlock x:Name="questionView" HorizontalAlignment="Left" Margin="82,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="162" Width="810" FontSize="48" TextAlignment="Center" FontWeight="Bold"/>
-        <Button Content="c" Height="100" Margin="82,470,0,0" VerticalAlignment="Top" Width="405" FontWeight="Bold" FontFamily="Calibri" FontSize="40" Click="resetButtonHandler"/>
-        <Button Content="Button" Margin="149,39,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="dotButton" Content="," Height="100" Margin="35,630,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="dotClickHandler"/>
+        <Button Content="0" Height="100" Margin="240,630,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <Button x:Name="calculateButton" IsEnabled="False" Content="=" Height="100" Margin="445,630,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="calcButtonHandler"/>
+        <Button Content="9" Height="100" Margin="445,525,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <Button Content="8" Height="100" Margin="240,525,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <Button Content="7" Height="100" Margin="35,525,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <Button Content="4" Height="100" Margin="35,420,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <Button Content="5" Height="100" Margin="240,420,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <Button Content="6" Height="100" Margin="445,420,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <Button Content="3" Height="100" Margin="445,315,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <Button Content="2" Height="100" Margin="240,315,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <Button Content="1" Height="100" Margin="35,315,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" FontWeight="Bold" FontFamily="Calibri" FontSize="20"/>
+        <TextBlock x:Name="inputForm" HorizontalAlignment="Left" Margin="445,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="100" Width="401" FontSize="24" TextAlignment="Center" FontWeight="Bold"/>
+        <Button x:Name="subtractEvent" Content="-" Height="100" Margin="0,630,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="eventButtonClickHandler" HorizontalAlignment="Center"/>
+        <Button x:Name="foldEvent" Content="+" Height="100" Margin="0,525,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="eventButtonClickHandler" HorizontalAlignment="Center"/>
+        <Button x:Name="devideEvent" Content="/" Height="100" Margin="0,420,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="eventButtonClickHandler" HorizontalAlignment="Center"/>
+        <Button x:Name="multiplyEvent" Content="x" Height="100" Margin="0,315,0,0" VerticalAlignment="Top" Width="200" FontSize="22" Click="eventButtonClickHandler" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="questionView" HorizontalAlignment="Left" Margin="35,19,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="162" Width="810" FontSize="48" TextAlignment="Center" FontWeight="Bold"/>
+        <Button Content="c" Height="100" Margin="35,210,0,0" VerticalAlignment="Top" Width="405" FontWeight="Bold" FontFamily="Calibri" FontSize="40" Click="resetButtonHandler"/>
 
 
     </Grid>
